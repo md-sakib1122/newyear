@@ -228,3 +228,33 @@ header h1 {
  .comming-soon .right img{
     width: 140px;
  }
+
+ /*  */
+ .functional {
+    text-align: center;
+    width: 1066px;
+    margin: auto;
+    margin-top: 90px;
+ }
+
+ .functional h1{
+    margin-bottom: -70px;
+ }
+
+ .functional h4{
+    font-family: Inter;
+    font-size: 48px;
+    color: var(--black2);
+    margin-bottom: -5px;
+ }
+
+ .functional span{
+    color: var(--primary-color);
+ }
+
+ .discount{
+ background-image:url("../images/Group\ 75.png"), url("../images/Rectangle\ 2.png"),url("../images/Group\ 44.png");
+  background-repeat: no-repeat,no-repeat,no-repeat;
+  background-position: bottom center, bottom center,right center;
+  height: 662px;
+ }
