@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root{
+    --primary-color:rgb(255, 0, 0);
+    --black1 : rgb(7, 2, 17);
+    --black2 : rgba(7, 2, 17, 0.6);
+    --black3 : rgba(7, 2, 17, 0.3);
+    --white : rgb(255, 255, 255);
+}
+
+/* common styles */
+
+.para{
+    color:var(--black2);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    font-family: Inter;
+}   
+.heading-primary{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+}
+
+.heading-secondary{
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+}
+
+.heading-ternary{
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+
+/* hero section */
+header {
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+header .container {
+    width: 632px;
+    height: 246px;
+    text-align: center;
+}
+
+header h1 {
+    color: var(--white);
+}
+ header p{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+
+ }
+ .holyday h2,p{
+    text-align: center;
+ }
+ .holyday h1{
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+ }
+ .holyday h2{
+    font-family: Inter;
+ }
+ .holyday img{
+    width: 802.9px;
+    height: 500px;
+    display: block;
+    margin: auto;
+ }
+ /*  */
+.welcome{
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
+    height: 600px;
+    width: 1320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+}
+ .welcome div{
+    width: 700px;
+    padding-left: 126px;
+    padding-top: 126px;
+
+ }
+
+ .welcome div h1{
+    font-size: 64px;
+    color: var(--white);
+   
+ }
+ .welcome div p{
+    text-align: start;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+ }
+
+ .welcome div a{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    margin-left: 32px;
+ }
+
+
+ /*  */
+
+ .hotel {
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .hotel p{
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+ }
+
+ .hotel span{
+    color: var(--primary-color);
+ }
+
+ .hotel button{
+    padding: 16px 32px 16px 32px;
+    background-color: var(--primary-color);
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+ }
+
+ .comming-soon{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    margin-top: 60px;
+ }
+
+ .comming-soon .left{
+    width: 393px;
+    text-align: start;
+ }
+
+ .comming-soon .left p{
+    text-align: start;
+    font-size: 20px;
+    width: 393px;
+ }
+ .comming-soon .circle img{
+    width: 364.84px;
+    height: 364.84px;
+ }
+ .comming-soon .circle {
+    border: 15px solid rgb(255, 0, 0);
+    width: 463px;
+    height:463px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+ }
+
+
+ .comming-soon .right{
+    width: 276px;
+    text-align: start;
+ }
+
+ .comming-soon .right p{
+    font-size: 20px;
+    width: 276px;
+    text-align: start;
+ }
+ .comming-soon .right h1{
+    font-family: Inter;
+    font-size: 48px;
+    color: var(--primary-color);
+ }
+ .comming-soon .right img{
+    width: 140px;
+ }
