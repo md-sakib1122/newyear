@@ -255,6 +255,20 @@ header h1 {
  .discount{
  background-image:url("../images/Group\ 75.png"), url("../images/Rectangle\ 2.png"),url("../images/Group\ 44.png");
   background-repeat: no-repeat,no-repeat,no-repeat;
-  background-position: bottom center, bottom center,right center;
+  background-position: bottom left, bottom center,right top;
+  background-size:600px 500px,auto, auto;
+
   height: 662px;
+ }
+
+ .gifts{
+    width: 896px;
+ }
+
+ .gifts h4{
+    margin-bottom: -30px;
+ }
+ .gifts p{
+    text-align: start;
+
  }
