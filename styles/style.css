@@ -257,7 +257,6 @@ header h1 {
   background-repeat: no-repeat,no-repeat,no-repeat;
   background-position: bottom left, bottom center,right top;
   background-size:600px 500px,auto, auto;
-
   height: 662px;
  }
 
@@ -307,16 +306,64 @@ header h1 {
     margin: none;
     width: 100px;
     background-color: var(--primary-color);
-    border-top-right-radius: 10%;
-    border-bottom-right-radius: 10%;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
     color: white;
  }
 
  .subscribe .btncontainer {
       height: 40px;
       display: flex;
-      background-color: rebeccapurple;
-      border: none;
-      outline: none;
-      border-radius: 50%;
+     
+ }
+
+ /*  */
+
+ footer{
+   color: rgb(255, 255, 255);
+   font-family: Inter;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 40px;
+   background: rgb(7, 2, 17);
+   margin-bottom: -24px;
+ }
+
+ footer .f1{
+      display: flex;
+      justify-content: space-between;
+      width: 1185px;
+      margin: auto;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      height: 160px;
+
+ }
+
+ footer .f2{
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 25px;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+   width: 1185px;
+   margin: auto;
+   padding: 30px;
+
+ }
+
+ footer .f3{
+   display: flex;
+   justify-content: space-between;
+   width: 1185px;
+   margin: auto;
+   height: 160px;
+   align-items: center;
+ }
+
+
+ footer .group{
+   display: flex;
+   align-items: center; 
+   gap: 4px;
  }
